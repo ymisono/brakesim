@@ -13,7 +13,7 @@ clean: $(BEAMS)
 	rm $^
 
 sn1:
-	erl -name node1@127.0.0.1 -cookie 20140627
+	erl -name node1@127.0.0.1 -cookie 140627
 
 sn2:
-	erl -name node2@127.0.0.1 -cookie 20140627
+	erl -name node2@127.0.0.1 -cookie 140627
