@@ -7,3 +7,6 @@ brakesim
 4. s2で次を実行 `erl -name node2@127.0.0.1 --cookie yymmdd`
 5. この時点でs1ではerlangのインタプリンタが起動しているはずである。インタプリンタで次を入力 `sim_sup:init_sim().`
 6. s1で次を実行`application:start(brakesim).`
+
+###環境
+* Erlang R14B + Eshell V5.8.1.1 + Windows 7での起動を確認。
